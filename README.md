@@ -92,7 +92,7 @@ Evaluador-WiFi-ESP32/
 ### Opción 2: PlatformIO
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/Evaluador-WiFi-ESP32.git
+git clone https://github.com/ivanvch1333/ESP32-WiFi-Security-Assessment.git
 cd Evaluador-WiFi-ESP32
 
 # Compilar y subir
