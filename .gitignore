@@ -1,0 +1,33 @@
+﻿# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+.gcc-flags.json
+
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.map
+build/
+
+# Secretos y credenciales personales
+credentials.h
+secrets.json
+config.local.h
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
