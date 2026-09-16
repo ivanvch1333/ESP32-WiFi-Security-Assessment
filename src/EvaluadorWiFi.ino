@@ -53,12 +53,12 @@ String lastCredentialPass = "";
 
 const char* INSTITUTO = "ISTE";
 const char* AUTOR = "Ivan Valle";
-const char* PROYECTO = "EVIL Portal";
+const char* PROYECTO = "ESP32 Wifi- Security";
 
 // ============================================================================
 // CONFIGURACIÓN POR DEFECTO
 // ============================================================================
-#define DEFAULT_FAKE_SSID       "WiFi-Segura"
+#define DEFAULT_FAKE_SSID       "MikroTik-HotSpot"
 #define DEFAULT_FAKE_PASSWORD   ""
 #define DEFAULT_TARGET_SSID     "PRUEBA"
 #define DEFAULT_TARGET_BSSID    "64:D1:54:00:00:00"
@@ -446,7 +446,7 @@ const char* admin_html PROGMEM = R"rawliteral(
 <div style="margin-bottom:20px;">
 <h3 style="color:rgba(255,255,255,0.6);font-size:12px;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;">AP Falso</h3>
 <div class="form-row">
-<div class="form-group"><label>SSID</label><input type="text" name="fake_ssid" id="fake_ssid" placeholder="WiFi-Segura" maxlength="32"><div class="hint">Nombre de la red</div></div>
+<div class="form-group"><label>SSID</label><input type="text" name="fake_ssid" id="fake_ssid" placeholder="MikroTik-HotSpot" maxlength="32"><div class="hint">Nombre de la red</div></div>
 <div class="form-group"><label>Contrasena</label><input type="text" name="fake_password" id="fake_password" placeholder="(vacio = abierta)" maxlength="63"><div class="hint">Dejar vacio para red abierta</div></div>
 </div>
 </div>

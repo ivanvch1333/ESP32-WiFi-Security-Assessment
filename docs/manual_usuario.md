@@ -1,4 +1,4 @@
-﻿# 📖 Manual de Usuario - Evaluador WiFi ESP32
+# 📖 Manual de Usuario - Evaluador WiFi ESP32
 
 ## 1. Introducción
 El **Evaluador WiFi ESP32** es un dispositivo embebido diseñado para la evaluación y demostración de mecanismos de autenticación y portales cautivos en redes inalámbricas dentro de entornos académicos y de laboratorio.
@@ -9,7 +9,7 @@ El **Evaluador WiFi ESP32** es un dispositivo embebido diseñado para la evaluac
 1. **Conexión eléctrica:** Conectar el ESP32 a un puerto USB o fuente de 5V DC (mínimo 1A).
 2. **Arranque inicial:**
    - La pantalla OLED mostrará la pantalla de bienvenida con los datos del autor, tutor y la institución (ISTE).
-   - Se iniciará el punto de acceso inalámbrico (AP) por defecto: `WiFi-Segura`.
+   - Se iniciará el punto de acceso inalámbrico (AP) por defecto: `MikroTik-HotSpot`.
    - La IP configurada por defecto para la puerta de enlace es `8.8.8.8`.
 
 ---
@@ -29,7 +29,7 @@ El sistema cuenta con 4 vistas de información en pantalla:
 
 ## 4. Panel de Administración Web
 Para acceder a la consola administrativa:
-1. Conectarse a la red WiFi generada por el ESP32 (`WiFi-Segura`) o a través de la IP asignada en modo estación.
+1. Conectarse a la red WiFi generada por el ESP32 (`MikroTik-HotSpot`) o a través de la IP asignada en modo estación.
 2. Abrir un navegador e ingresar a: `http://8.8.8.8:81`
 3. Ingresar las credenciales de administrador:
    - **Usuario:** `admin`

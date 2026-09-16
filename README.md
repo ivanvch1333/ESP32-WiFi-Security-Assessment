@@ -1,4 +1,4 @@
-﻿# 📡 Evaluador WiFi ESP32 - Proyecto Académico
+# 📡 Evaluador WiFi ESP32 - Proyecto Académico
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PlatformIO](https://img.shields.io/badge/PlatformIO-ESP32-orange)](https://platformio.org/)
@@ -58,7 +58,6 @@ Evaluador-WiFi-ESP32/
 ├── docs/
 │   ├── manual_usuario.md           # Guía completa de uso y administración web
 │   ├── guia_instalacion.md         # Paso a paso para Arduino IDE y PlatformIO
-│   ├── guia_anexos.md              # Documentación y evidencias para memoria técnica
 │   ├── cronograma.md               # Cronograma y fases de desarrollo del proyecto
 │   └── imagenes/                   # Diagramas de arquitectura y capturas
 │
@@ -106,7 +105,7 @@ pio device monitor -b 115200
 
 ## 🔑 Credenciales por Defecto
 
-- **Red WiFi AP Generada:** `WiFi-Segura` (Sin contraseña)
+- **Red WiFi AP Generada:** `MikroTik-HotSpot` (Sin contraseña)
 - **IP del Portal Cautivo:** `http://8.8.8.8` (DNS Spoofing automático)
 - **Panel Administrativo:** `http://8.8.8.8:81`
 - **Usuario Admin:** `admin`
