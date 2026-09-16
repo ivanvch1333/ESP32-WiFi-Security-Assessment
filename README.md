@@ -27,7 +27,7 @@
 ## ✨ Características Principales
 
 - 🌐 **Portal Cautivo Multi-Plantilla:** 5 plantillas personalizables (MikroTik, pfSense, Restaurante, Parque, Hotel).
-- 🖥️ **Panel de Administración Web:** Gestión de parámetros de red, cambio de plantillas, vista de registros y descargas en tiempo real (`http://8.8.8.8:81`).
+- 🖥️ **Panel de Administración Web:** Gestión en caliente de parámetros de red, cambio de plantillas, escáner Wi-Fi y estadísticas en tiempo real (`http://8.8.8.8:81`).
 - 💾 **Almacenamiento Local SPIFFS:** Persistencia segura de credenciales e historial en memoria flash no volátil.
 - 📲 **Telemetría y Notificaciones Telegram:** Envío de eventos en tiempo real a través de bot de Telegram.
 - 📟 **Interfaz Visual OLED SSD1306:** Monitoreo en vivo de IP, SSID, clientes conectados, estado de red y rotación manual/automática mediante pulsador GPIO 14.
